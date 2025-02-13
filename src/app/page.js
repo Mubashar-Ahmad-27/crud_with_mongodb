@@ -44,7 +44,7 @@ export default function TodoApp() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-orange-800 p-4">
       <div className="bg-black shadow-lg rounded-lg p-6 w-full max-w-md">
 
-        <h1 className="text-2xl font-bold text-white text-center mb-4">To-Do App</h1>
+        <h1 className="text-2xl font-bold text-white text-center mb-4">TODO App</h1>
 
         <div className="flex space-x-2 mb-4">
           <input type="text" value={task} onChange={(e) => setTask(e.target.value)}
